@@ -57,3 +57,13 @@ Configure NAT Gateway
 Expand to multi-AZ architecture
 
 Infrastructure as Code (Terraform / CloudFormation)
+## 📸 Lab Screenshots
+
+### VPC Configuration
+![VPC](vpc5.jpg)
+
+### Private Subnet
+![Subnet](subnet10.jpg)
+
+### Internet Gateway
+![Internet Gateway](igw3.jpg)
