@@ -1,48 +1,56 @@
-aws-vpc-networking-lab
-Hands-on AWS lab documenting the design and implementation of a custom VPC architecture from scratch. 🧪 AWS Lab – Designing a VPC from Scratch
+# aws-vpc-networking-lab
 
-This repository documents a hands-on AWS networking lab where I designed and implemented the networking foundation of a cloud architecture starting from an empty VPC and configuring every component manually.
+Hands-on AWS lab documenting the design and implementation of a custom VPC architecture from scratch.  
+🧪 **AWS Lab – Designing a VPC from Scratch**
 
-🎯 Objectives
+---
 
-Build a custom VPC without using AWS wizards or defaults
+## 📘 Overview
 
-Apply best practices for network segmentation and scalability
+This repository documents a hands-on AWS networking lab where I designed and implemented the networking foundation of a cloud architecture starting from an empty VPC, configuring every component manually without using AWS wizards or defaults.
 
-Understand core AWS networking concepts through hands-on practice
+The goal of this lab was to deeply understand how AWS VPC networking works under the hood and to apply best practices for scalable and secure network design.
 
-🛠️ What I implemented
+---
 
-✅ Custom VPC with a /16 CIDR block
+## 🎯 Objectives
 
-✅ DNS Resolution and DNS Hostnames enabled
+- Build a custom VPC without using AWS wizards or default configurations  
+- Apply best practices for network segmentation and scalability  
+- Understand core AWS networking concepts through hands-on implementation  
 
-✅ Private subnet (/24) for workload isolation
+---
 
-✅ Internet Gateway correctly attached
+## 🛠️ What I implemented
 
-✅ Structured network design focused on scalability and security
+- ✅ Custom VPC with a `/16` CIDR block  
+- ✅ DNS Resolution and DNS Hostnames enabled  
+- ✅ Private subnet (`/24`) for workload isolation  
+- ✅ Internet Gateway created and correctly attached  
+- ✅ Structured network design focused on scalability and security  
 
-🧠 Key learnings
+---
 
-IP addressing and subnet planning
+## 🧠 Key Learnings
 
-Network isolation and segmentation
+- IP addressing and subnet planning  
+- Network isolation and segmentation  
+- Internet connectivity using an Internet Gateway  
+- Core AWS VPC components and their interactions  
+- Infrastructure design thinking  
 
-Internet connectivity using IGW
+---
 
-AWS VPC fundamentals and architecture design
+## 📸 Architecture & Screenshots
 
-Infrastructure design thinking
+### VPC Configuration
+![VPC](screenshots/VPC.jpg)
 
-📸 Screenshots
+### Internet Gateway Attachment
+![Internet Gateway](screenshots/InternetGateway.jpg)
 
-Screenshots included show:
+### Subnet Design
+![Subnet](screenshots/subnet.jpg)
 
-VPC configuration
+> ⚠️ All sensitive information has been masked.
 
-Subnet creation
-
-Internet Gateway attachment
-
-(All sensitive information has been masked.)
