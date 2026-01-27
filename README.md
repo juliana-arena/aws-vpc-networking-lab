@@ -1,6 +1,5 @@
-# aws-vpc-networking-lab
-Hands-on AWS lab documenting the design and implementation of a custom VPC architecture from scratch.
-🧪 AWS Lab – Designing a VPC from Scratch
+aws-vpc-networking-lab
+Hands-on AWS lab documenting the design and implementation of a custom VPC architecture from scratch. 🧪 AWS Lab – Designing a VPC from Scratch
 
 This repository documents a hands-on AWS networking lab where I designed and implemented the networking foundation of a cloud architecture starting from an empty VPC and configuring every component manually.
 
@@ -47,5 +46,3 @@ Subnet creation
 Internet Gateway attachment
 
 (All sensitive information has been masked.)
-
-
